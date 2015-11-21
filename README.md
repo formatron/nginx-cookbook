@@ -1,3 +1,3 @@
-# nginx cookbook
+# nginx-cookbook
 
 Formatron nginx cookbook
