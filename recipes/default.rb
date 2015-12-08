@@ -6,7 +6,7 @@ link '/etc/nginx/sites-enabled/default' do
   notifies :restart, 'service[nginx]', :delayed
 end
 
-cookbook_file '/etc/nginx/logstash.conf' do
+cookbook_file '/etc/nginx/conf.d/logstash.conf' do
   notifies :restart, 'service[nginx]', :delayed
 end
 
