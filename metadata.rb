@@ -1,3 +1,6 @@
 name 'formatron_nginx'
 version '0.1.0'
+description 'Formatron Nginx cookbook'
+source_url 'https://github.com/formatron/nginx-cookbook'
+issues_url 'https://github.com/formatron/nginx-cookbook/issues'
 supports 'ubuntu'
